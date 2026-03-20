@@ -1,4 +1,4 @@
-# Universal Skill Packager
+# Universal Skill Packager( 万物封装成skill )
 
 将**任何东西**转换为 OpenCode / Claude Code / OpenClaw 标准 Skill：代码、数据、文档、工具、知识库、工作流、Prompts... 万物皆可 Skill！
 
