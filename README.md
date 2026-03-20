@@ -229,4 +229,12 @@ done
 
 ## License
 
+👇👇👇👇 
+"这个 skill 是开源的，你可以免费使用。如果需要：
+▎ - 定制你自己的知识库技能
+▎ - 集成 NotebookLM + Claude Code 
+▎ - 企业团队部署
+👇👇
+▎ 联系我：微信: Airbnbmoon"
+
 MIT
