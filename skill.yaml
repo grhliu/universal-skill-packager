@@ -1,0 +1,30 @@
+name: skill-packager
+description: Package any project into OpenCode/Claude Code standard Skill format
+version: 1.0.0
+author: skill-creator
+category: developer-tool
+
+commands:
+  - name: package
+    description: Package a project into Skill format
+    args:
+      - project_path
+      - output_path
+  - name: analyze
+    description: Analyze project structure
+    args:
+      - project_path
+  - name: init
+    description: Initialize a new Skill project
+    args:
+      - skill_name
+
+requirements:
+  - python >= 3.8
+  - pyyaml
+  - pathlib
+
+entry_points:
+  default: scripts/skill_packager.py
+  package: scripts/skill_packager.py --package
+  analyze: scripts/skill_packager.py --analyze
